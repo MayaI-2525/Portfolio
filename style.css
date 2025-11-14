@@ -80,7 +80,7 @@ section {
 article {
     max-width: 1010px;
 }
-
+/*ーーーーーーーーーーJS用CSSーーーーーーーーーー*/
 /*ーーーーーーーーーーー背景JS*/
 /*
 .bg-js {
@@ -91,7 +91,7 @@ article {
 }
 */
 
-/*ーーーーーーーーーーJS用CSSーーーーーーーーーー*/
+
 /*フェードイン前*/
 .js-fadein {
     opacity: 0;
@@ -107,7 +107,15 @@ article {
     transform: translateY(0px);
 }
 /*ーーーーーーーーーーJS用CSSここまでーーーーーーーーーー*/
-
+/*アニメーション設定*/
+.hoverZoomAnime {
+    display: block;
+    transition: 0.15s all;
+}
+.hoverZoomAnime:hover {
+    transform: scale(1.02);
+    transition: 0.3s all;
+}
 
 /*WORK*/
 .work__content {
@@ -306,4 +314,5 @@ footer {
     position: absolute;
     bottom: 0;
     left: 0;
+
 }
