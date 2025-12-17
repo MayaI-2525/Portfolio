@@ -385,6 +385,7 @@ article {
 .about__profile_box img {
     width: 150px;
     height: 100px;
+    object-fit: contain;
 }
 
 @media(max-width:600px){
